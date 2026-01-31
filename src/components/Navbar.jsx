@@ -52,17 +52,6 @@ const Navbar = () => {
                 )}
                 {/* We force glass on mobile always for readability, or handle via scrolled */}
 
-                {/* Logo / Brand Mark */}
-                <a
-                    href="#"
-                    className="relative z-10 pl-3 flex items-center group"
-                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-                >
-                    <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-blue-600 to-purple-600 flex items-center justify-center text-white text-[10px] font-black group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-blue-500/20">
-                        AC
-                    </div>
-                </a>
-
                 {/* Desktop Menu */}
                 <div className="hidden md:flex items-center space-x-1 relative z-10">
                     {navLinks.map((link) => (
