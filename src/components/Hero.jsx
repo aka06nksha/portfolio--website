@@ -67,7 +67,9 @@ const Hero = () => {
                     className="flex flex-col sm:flex-row gap-5 justify-center items-center mb-16"
                 >
                     <a
-                        href="/resume.pdf"
+                        href="/certificates/C_Akanksha_.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="group relative px-8 py-3.5 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-semibold shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 transition-all duration-300 flex items-center gap-2 overflow-hidden"
                     >
                         <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-150%] group-hover:translate-x-[150%] transition-transform duration-700 ease-in-out"></span>
